@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(228, 143, 157);
+}
+
+body > *{
+    margin: 0 auto;
+}
+
+.card_Container > *{
+    margin: 0 auto;
+}
+
+.card_Container{
+    width: 350px;
+    height: 200px;
+    background:linear-gradient(
+        to bottom left,
+         rgb(238, 87, 112), 
+         rgb(241, 168, 33));
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 10px;
+}
+
+.infoText{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.infoText > h4{
+    padding-top: 30px;
+}
+
+.infoText > h1{
+    margin-top: 10px;
+}
+
+.infoText > h5{
+    margin-top: 50px;
+}
+
+#circle1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    z-index: 2;
+    bottom: 220px;
+    left: 120px;
+}
+
+#circle2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    z-index: 3;
+    bottom: 270px;
+    left: 80px;
+}
